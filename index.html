@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script src ="">  </script>
+  <script src ="script.js" >  </script>
   <link rel="stylesheet" type="text/css" href="style.css"> 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +13,7 @@
   <h2> OPL 4337 #Assignment_4</h2>
   <h4> <i>CS Student </i></h4>
 </main>
-<body>
+<body id="BODY">
   <div class="image">
     <img alt="Image of a programmer" src = "https://st3.depositphotos.com/3382541/13326/v/450/depositphotos_133260890-stock-illustration-programmer-sitting-on-big-laptop.jpg" height = "200" width = "200">
   </div>
@@ -61,15 +61,17 @@
     </tbody>
   </table>
   </div>
+  <br>
   <!------ THIS GETS USER INPUT ----------------------->
   <div class = "userInput">    
     <form class = "form-example" id ="form_example">
         <div class = "form-example">
-          <input type="text" placeholder="Enter background color" name="name" id = "name" required>
+          <input type="text" placeholder="Enter background color"  id = "backgroundColor" required>
         </div>
         <div class = "form-example">
           <button type="submit" onclick='submitFunction()'> submit </button>
         </div>
+        <label id = "error"></label>
     </form>
   </div>
 </body>

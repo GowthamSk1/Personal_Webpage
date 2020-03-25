@@ -12,9 +12,11 @@ table, th, td{
   border: 2px solid black;
   text-align: center;
 }
+/*
 table{
   margin-bottom: 20px;
-}
+} 
+*/
 img{
   display: table;
   margin-left: auto;

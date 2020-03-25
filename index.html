@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script src ="">  </script>
   <link rel="stylesheet" type="text/css" href="style.css"> 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,7 +39,7 @@
   </div>
 <!------ THIS CREATES A TABLE ----------------------->
   <div  class = "table">
-    <table border="3" align="center" >
+    <table align ="center">
     <thead>
       <tr>
         <th colspan="2"> Change background </th>
@@ -46,12 +47,16 @@
     </thead>
     <tbody>
       <tr>
-        <td> XXXXXX </td>
-        <td> XXXXXX </td>
+        <td> Red </td>
+        <td> <div style="background-color: Red; margin: auto; width: 5px; height: 5px; border: 6px solid red;"> </td>
       </tr>
       <tr>
-        <td> XXXXXX </td>
-        <td> XXXXXX </td>
+        <td> Blue </td>
+        <td> <div style="background-color: blue; margin: auto; width: 5px; height: 5px; border: 6px solid blue;"></div> </td>
+      </tr>
+      <tr>
+        <td> Yellow</td>
+        <td> <div style="background-color: yellow; margin: auto; width: 5px; height: 5px; border: 6px solid yellow;"> </td>
       </tr>
     </tbody>
   </table>
@@ -60,10 +65,10 @@
   <div class = "userInput">    
     <form class = "form-example" id ="form_example">
         <div class = "form-example">
-          <input type="text" placeholder="Enter name" name="name" id = "name" required>
+          <input type="text" placeholder="Enter background color" name="name" id = "name" required>
         </div>
         <div class = "form-example">
-          <button type="submit"> Submit </button>
+          <button type="submit" onclick='submitFunction()'> submit </button>
         </div>
     </form>
   </div>

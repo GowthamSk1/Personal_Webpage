@@ -1,0 +1,26 @@
+body{
+  background-color: lightgray;
+}
+.sample{
+  text-align: center;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul{
+  text-align: center;
+  list-style:inside;
+}
+ol{
+  text-align: center;
+  list-style: inside;
+}
+p{
+  text-align: center;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
